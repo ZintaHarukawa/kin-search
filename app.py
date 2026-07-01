@@ -9,27 +9,6 @@ st.set_page_config(
     layout="wide"
 )
 
-
-# ====================
-# ヘッダー
-# ====================
-
-header1, header2, header3 = st.columns([1,4,1])
-
-with header2:
-    st.markdown(
-        """
-        <div style="text-align:right;">
-            <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
-                <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
-                     width="700">
-            </a>
-        </div>
-        """,
-        unsafe_allow_html=True
-)
-
-
 # ------------------------------------
 # データ読込
 # ------------------------------------
@@ -253,7 +232,17 @@ st.dataframe(
 )
 
 st.markdown("---")
-
+st.markdown(
+        """
+        <div style="text-align:right;">
+            <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
+                <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
+                     width="700">
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
 st.markdown(
     """
     © 2026 Takao Yamamoto.All Rights Reserved.
