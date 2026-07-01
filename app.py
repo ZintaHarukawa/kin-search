@@ -5,7 +5,7 @@ import pandas as pd
 # 画面設定
 # ------------------------------------
 st.set_page_config(
-    page_title="筋検索システム",
+    page_title="筋検索",
     layout="wide"
 )
 
