@@ -191,3 +191,12 @@ st.dataframe(
     use_container_width=True,
     hide_index=True
 )
+
+st.markdown("---")
+
+st.markdown(
+    """
+    © 2026 Takao Yamamoto.All Rights Reserved.
+    """
+)
+
