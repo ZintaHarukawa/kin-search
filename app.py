@@ -29,9 +29,9 @@ df = load_data()
 col1, col2 = st.columns([4, 1])
 
 with col1:
-    st.title("筋検索システム")
+    st.title("筋検索")
 
-    with st.expander("📖 このシステムの使い方"):
+    with st.expander("📖 使い方"):
 
         st.markdown("""
 ### 検索ワード例
