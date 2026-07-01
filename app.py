@@ -21,7 +21,7 @@ with header2:
         """
         <div style="text-align:center;">
             <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
-                <img src="raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
+                <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
                      width="700">
             </a>
         </div>
