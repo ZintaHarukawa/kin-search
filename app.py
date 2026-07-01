@@ -232,17 +232,6 @@ st.dataframe(
 )
 
 st.markdown("---")
-#st.markdown(
-        """
-        <div style="text-align:right;">
-            <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
-                <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
-                     width="700">
-            </a>
-        </div>
-        """,
-        unsafe_allow_html=True
-        )
 st.markdown(
     """
     © 2026 Takao Yamamoto.All Rights Reserved.
