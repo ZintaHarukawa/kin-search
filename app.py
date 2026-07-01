@@ -25,7 +25,28 @@ df = load_data()
 # ------------------------------------
 # タイトル
 # ------------------------------------
-st.title("筋検索システム")
+
+col1, col2 = st.columns([4, 1])
+
+with col1:
+    st.title("筋検索システム")
+
+with col2:
+    st.markdown(
+        """
+        <div style="text-align:right; padding-top:20px;">
+            <a href="https://www.hitwebcounter.com/"
+               target="_blank"
+               rel="noopener"
+               title="www Stats">
+                <img src="https://www.hitwebcounter.com/counter/counter.php?page=21506867&style=0011&nbdigits=9&type=page"
+                     style="border:0;max-width:100%;height:auto;">
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 # ------------------------------------
 # 検索
