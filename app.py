@@ -232,7 +232,7 @@ st.dataframe(
 )
 
 st.markdown("---")
-st.markdown(
+#st.markdown(
         """
         <div style="text-align:right;">
             <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
