@@ -19,7 +19,7 @@ header1, header2, header3 = st.columns([1,4,1])
 with header2:
     st.markdown(
         """
-        <div style="text-align:center;">
+        <div style="text-align:right;">
             <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
                 <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
                      width="700">
