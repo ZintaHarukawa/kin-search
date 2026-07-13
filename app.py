@@ -5,7 +5,7 @@ import pandas as pd
 # 画面設定
 # ------------------------------------
 st.set_page_config(
-    page_title="筋検索",
+    page_title="筋検索システム",
     layout="wide"
 )
 
@@ -29,9 +29,9 @@ df = load_data()
 col1, col2 = st.columns([4, 1])
 
 with col1:
-    st.title("筋検索")
+    st.title("筋検索システム")
 
-    with st.expander("📖 使い方"):
+    with st.expander("📖 このシステムの使い方"):
 
         st.markdown("""
 ### 検索ワード例
@@ -232,6 +232,17 @@ st.dataframe(
 )
 
 st.markdown("---")
+st.markdown(
+        """
+        <div style="text-align:right;">
+            <a href="https://kyoeigakuen.ac.jp/iseshimareha/" target="_blank">
+                <img src="https://raw.githubusercontent.com/ZintaHarukawa/kin-search/main/banner.jpg"
+                     width="700">
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True
+        )
 st.markdown(
     """
     © 2026 Takao Yamamoto.All Rights Reserved.
